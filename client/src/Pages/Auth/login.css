@@ -1,0 +1,110 @@
+/* Card Container */
+.card {
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(145deg, #2e3146, #232538);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    color: #ffffff;
+  }
+  
+  /* Title */
+  .title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffeba7;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 5px rgba(255, 235, 167, 0.5);
+  }
+  
+  /* Input Fields */
+  .field {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    background: #1f2029;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .field:focus-within {
+    border-color: #ffeba7;
+  }
+  
+  .input-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    fill: #ffeba7;
+    margin-right: 0.8rem;
+  }
+  
+  .input-field {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #d3d3d3;
+  }
+  
+  .input-field::placeholder {
+    color: #8c8c8c;
+  }
+  
+  /* Buttons */
+  .btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fbe292;
+    color: #2e3146;
+    box-shadow: 0 5px 15px rgba(255, 235, 167, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #2e3146;
+    color: #ffeba7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-link {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #ffeba7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-link:hover {
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
