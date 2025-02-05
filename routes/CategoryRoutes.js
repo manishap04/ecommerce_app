@@ -4,8 +4,6 @@ import { categoryControlller, createCategoryController, deleteCategoryController
 
 const router = express.Router();
 
-//routes
-// create category
 router.post(
   "/create-category",
   requireSignIn,
